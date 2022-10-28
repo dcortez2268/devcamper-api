@@ -38,6 +38,32 @@ EventEmitter // all classes that emit events are child classes of the EventEmitt
 npm i express // express framework
 npm i dotenv // environment variables
 npm i -D nodemon // hot reload changes without having to restart server manually
+npm i morgan // third party middleware logger
+
+// Route structures for this API
+// GET POST PUT DELETE methods for following resources:
+/api/v1/bootcamps
+/api/v1/courses
+/api/v1/reviews
+/api/v1/auth
+/api/v1/users
+//good idea to version like this
+
+// What is middleware?
+// middleware is a function that has access to request/response cycle (the req, res variables)
+// all middleware functions take in (req, res, next) arguments
+// you can add properties/methods on the req object that can be accessed by any routes
+// call next() at end of middleware function
+// middleware is run for every api call made to any route if you use app.use(middlewareHere)
+
+// POSTMAN
+// collection:
+// environment:
+
+
+
+
+
 
 
 
