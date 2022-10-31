@@ -73,6 +73,8 @@ npm i colors // allows us to output diff color text in the console
 
 // models: constructors of a schema that creates an document instance, has models, fields, validation, middleware 
 
+app.use(express.json()) // include in server.js to be able to access req.body within our code
+
 
 
 
