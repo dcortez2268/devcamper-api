@@ -39,6 +39,9 @@ npm i express // express framework
 npm i dotenv // environment variables
 npm i -D nodemon // hot reload changes without having to restart server manually
 npm i morgan // third party middleware logger
+npm i mongoose // mongoose
+npm i colors // allows us to output diff color text in the console
+
 
 // Route structures for this API
 // GET POST PUT DELETE methods for following resources:
@@ -59,6 +62,17 @@ npm i morgan // third party middleware logger
 // POSTMAN
 // collection:
 // environment:
+
+// MongoDB Atlas: MongoDB in the cloud as opposed to being installed locally
+// Compass: desktop application that you can use to access and update your MongoDB databases
+
+// Mongoose: ODM library for MongoDB and node.js,
+
+// flow of routes: 
+// server.js file mounts router, router lists routes and calls functions that are located in controller file
+
+// models: constructors of a schema that creates an document instance, has models, fields, validation, middleware 
+
 
 
 
