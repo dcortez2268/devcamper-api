@@ -41,6 +41,7 @@ npm i -D nodemon // hot reload changes without having to restart server manually
 npm i morgan // third party middleware logger
 npm i mongoose // mongoose
 npm i colors // allows us to output diff color text in the console
+npm i slugify // allows us create slugs in mongodb model
 
 
 // Route structures for this API
@@ -71,7 +72,7 @@ npm i colors // allows us to output diff color text in the console
 // flow of routes: 
 // server.js file mounts router, router lists routes and calls functions that are located in controller file
 
-// models: constructors of a schema that creates an document instance, has models, fields, validation, middleware 
+// models: constructors of a schema that creates an document instance, has models, fields, validation, middleware(hooks)
 
 app.use(express.json()) // include in server.js to be able to access req.body within our code
 
