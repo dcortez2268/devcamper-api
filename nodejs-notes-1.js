@@ -42,6 +42,7 @@ npm i morgan // third party middleware logger
 npm i mongoose // mongoose
 npm i colors // allows us to output diff color text in the console
 npm i slugify // allows us create slugs in mongodb model
+npm i node-geocoder // allows us to geocode addresses given via input string
 
 
 // Route structures for this API
