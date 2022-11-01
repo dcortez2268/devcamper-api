@@ -66,7 +66,7 @@ npm i colors // allows us to output diff color text in the console
 // MongoDB Atlas: MongoDB in the cloud as opposed to being installed locally
 // Compass: desktop application that you can use to access and update your MongoDB databases
 
-// Mongoose: ODM library for MongoDB and node.js,
+// Mongoose: ODM library for MongoDB and node.js, has models, validation, easy manipulation of data with methods, in built middleware
 
 // flow of routes: 
 // server.js file mounts router, router lists routes and calls functions that are located in controller file
