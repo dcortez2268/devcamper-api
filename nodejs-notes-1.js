@@ -84,7 +84,11 @@ bootcamp: {
     required: true,
 }
 
-//resource router is how you implement routes like // @route   GET /api/v1/bootcamps/:bootcampId/courses in courses controller, you could also import function from courses controller into bootcamps router but not good practice 
+//resource router: is how you implement routes like // @route   GET /api/v1/bootcamps/:bootcampId/courses in courses controller, you could also import function from courses controller into bootcamps router but not good practice 
+
+// mongoose virtuals: document properties that you can get and set but that do not get persisted to MongoDB
+
+
 
 
 
