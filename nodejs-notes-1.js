@@ -77,7 +77,14 @@ npm i node-geocoder // allows us to geocode addresses given via input string
 
 app.use(express.json()) // include in server.js to be able to access req.body within our code
 
+// to build relationship among models you need to include these fields where Course is Model that contains a bootcamp
+bootcamp: {
+    type: mongoose.Schema.ObjectId,
+    ref: 'Bootcamp',
+    required: true,
+}
 
+//resource router is how you implement routes like // @route   GET /api/v1/bootcamps/:bootcampId/courses in courses controller, you could also import function from courses controller into bootcamps router but not good practice 
 
 
 
