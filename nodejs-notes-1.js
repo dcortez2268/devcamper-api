@@ -88,6 +88,9 @@ bootcamp: {
 
 // mongoose virtuals: document properties that you can get and set but that do not get persisted to MongoDB
 
+// mongoose statics: static methods on the model
+
+// mongoose pipeline: 
 
 
 
