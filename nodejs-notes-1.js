@@ -43,6 +43,7 @@ npm i mongoose // mongoose
 npm i colors // allows us to output diff color text in the console
 npm i slugify // allows us create slugs in mongodb model
 npm i node-geocoder // allows us to geocode addresses given via input string
+npm i express-fileupload // allows us to upload files
 
 
 // Route structures for this API
