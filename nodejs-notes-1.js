@@ -96,6 +96,7 @@ bootcamp: {
 // mongoose pipeline: 
 
 // storing jwt token in local storage on browser can lead to security issues so instead send jwt token in a cookie
+// cookie: 
 // httponly
 // secure flag sends cookie with https
 
