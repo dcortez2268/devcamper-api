@@ -161,7 +161,7 @@ exports.bootcampPhotoUpload = asyncHandler(async (req, res, next) => {
         )
     }
 
-    // make sure logged in user corresponds to bootcamp user and is not admin
+    // make sure logged in user corresponds to bootcamp owner and is not admin
     if (bootcamp.user.toString() !== req.user.id && req.user.role !== 'admin') {
         return next(
             new ErrorResponse(
