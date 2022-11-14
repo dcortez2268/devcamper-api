@@ -47,6 +47,7 @@ npm i express-fileupload // allows us to upload files
 npm i jsonwebtoken // allows us to use and send json web tokens
 npm i bcryptjs // allows us to decrypt/encrypt json web token
 npm i cookie-parser // allows us to send jwt in cookie
+npm i node-mailer // allows us to send emails from our project
 
 
 // Route structures for this API
