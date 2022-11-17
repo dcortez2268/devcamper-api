@@ -96,6 +96,7 @@ bootcamp: {
 // mongoose statics: static methods on the model
 
 // mongoose pipeline: 
+// mongoose index: 
 
 // storing jwt token in local storage on browser can lead to security issues so instead send jwt token in a cookie
 // cookie: 
