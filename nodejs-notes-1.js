@@ -48,6 +48,7 @@ npm i jsonwebtoken // allows us to use and send json web tokens
 npm i bcryptjs // allows us to decrypt/encrypt json web token
 npm i cookie-parser // allows us to send jwt in cookie
 npm i node-mailer // allows us to send emails from our project
+npm i express-mongo-sanitize // sanitizes our data to prevent sql injection
 
 
 // Route structures for this API
@@ -106,6 +107,8 @@ bootcamp: {
 // implemented shortcut to automatically submit token of logged in user to postman environment variable, and access via other routes {{token}} instead of manually having to enter logged in user token
 //under test tab of log in route input this code
 pm.environment.set("TOKEN", pm.response.json().token)
+
+// sanitizing data: 
 
 
 
