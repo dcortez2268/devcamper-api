@@ -10,6 +10,9 @@ const path = require('path')
 const mongoSanitize = require('express-mongo-sanitize')
 const helmet = require('helmet')
 const xss = require('xss-clean')
+const rateLimit = require('express-rate-limit')
+const hpp = require('hpp')
+const cors = require('cors')
 
 //Load env vars
 dotenv.config({ path: './config/config.env' })
@@ -47,6 +50,19 @@ app.use(helmet())
 
 // prevent xss attacks
 app.use(xss())
+
+// enable cors requests
+app.use(cors())
+
+// rate limiting
+const limiter = rateLimit({
+    windowMs: 10 * 60 * 1000,
+    max: 100,
+})
+app.use(limiter)
+
+// prevent http param pollution
+app.use(hpp())
 
 // set static folder
 app.use(express.static(path.join(__dirname, 'public')))

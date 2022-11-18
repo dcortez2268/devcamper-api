@@ -51,6 +51,9 @@ npm i node-mailer // allows us to send emails from our project
 npm i express-mongo-sanitize // sanitizes our data to prevent sql injection
 npm i helmet // adds a bunch of security headers to our requests 
 npm i xss-clean // adds cross site scripting protection
+npm i hpp // protects against HTTP parameter pollution attacks
+npm i express-rate-limit // allows you to limit the https requests someone can make for an allotted time period
+npm i cors // enables cors requests
 
 
 // Route structures for this API
