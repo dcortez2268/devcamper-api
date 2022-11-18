@@ -115,6 +115,10 @@ pm.environment.set("TOKEN", pm.response.json().token)
 
 // sanitizing data: 
 
+// docgen: 
+// helps transform postman collection to HTML documentation
+
+
 
 
 
