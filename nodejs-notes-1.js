@@ -49,6 +49,8 @@ npm i bcryptjs // allows us to decrypt/encrypt json web token
 npm i cookie-parser // allows us to send jwt in cookie
 npm i node-mailer // allows us to send emails from our project
 npm i express-mongo-sanitize // sanitizes our data to prevent sql injection
+npm i helmet // adds a bunch of security headers to our requests 
+npm i xss-clean // adds cross site scripting protection
 
 
 // Route structures for this API
