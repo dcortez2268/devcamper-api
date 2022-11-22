@@ -54,6 +54,9 @@ npm i xss-clean // adds cross site scripting protection
 npm i hpp // protects against HTTP parameter pollution attacks
 npm i express-rate-limit // allows you to limit the https requests someone can make for an allotted time period
 npm i cors // enables cors requests
+pm2// mentions production manager for nodejs
+nginx// web server that allows us to set up proxy and set up firewall
+
 
 
 // Route structures for this API
