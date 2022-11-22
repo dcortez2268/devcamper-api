@@ -19,6 +19,7 @@ npm install
 npm run dev
 
 # Run in prod mode
+npm start
 ```
 
 -   Version: 1.0.0
